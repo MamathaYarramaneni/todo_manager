@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   #post "todos/create", to: "todos#create"
   # get "todos/:id", to: "todos#show"
   resources :todos
+  #post "users/create", to: "userss#create"
   resources :users
 end
