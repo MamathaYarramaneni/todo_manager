@@ -21,4 +21,14 @@ class UsersController < ApplicationController
     display_text = "New user added with id: #{new_user.id} with name: #{new_user.name}"
     render plain: display_text
   end
+
+  def login
+    email = params[:email]
+    password = params[:password]
+    if User.where(email: email, password: password).exists?
+      render plain: true
+    else
+      render plain: false
+    end
+  end
 end
