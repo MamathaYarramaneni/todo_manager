@@ -1,0 +1,208 @@
+body{
+    max-width: 500px;
+    margin: 0 auto;    
+}
+section{
+    margin: 20px 20px;
+}
+.mainheading{
+    font-family: OpenSans-Semibold;
+    font-size: 20px;
+    color: #453C52;
+    letter-spacing: 0.14px;
+}
+
+.todotextinput{
+    background: #FFFFFF;
+    border: 1px solid #BFB8CC;
+    border-radius: 4px;
+    border-radius: 4px;
+    width:190px;
+    height:32px;
+    float: left;
+
+}
+
+.tododateinput{
+    width: 93px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #BFB8CC;
+    border-radius: 4px;
+    border-radius: 4px;
+    float: left;
+    margin-left: 10px;
+}
+
+.button{
+    background: #48BB78;
+    border-radius: 4px;
+    border-radius: 4px;
+    width:72px;
+    height:36px;
+    font-family: OpenSans-Semibold;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0.1px;
+    float: left;
+    margin-left: 11px;
+
+}
+
+.duedateinput{
+    background: #FFFFFF;
+    border: 1px solid #BFB8CC;
+    border-radius: 4px;
+    border-radius: 4px;
+    width:93px;
+     height:32px;
+}
+::placeholder{
+    padding-left: 12px;
+}
+.duetodayheading,.duetomheading,.remheading{
+
+    display: inline;
+    font-family: OpenSans-Semibold;
+    font-size: 14px;
+    color: #453C52;
+    letter-spacing: 0.1px;
+
+}
+.remtodos{
+    display: inline;
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #453C52;
+    
+    letter-spacing: 0.1px;
+    padding-left: 20px;
+    padding-top: 10px;
+    
+}
+.remtodos1{
+    float:right;
+    font-family: OpenSans;
+    font-size: 12px;
+    color: #726A7E;
+    letter-spacing: 0.09px;
+}
+.duetomtodos{
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #453C52;
+    letter-spacing: 0.1px;
+    padding-left: 20px;
+    display: inline;
+    padding-top: 20px;
+}
+.duetodaytodos{
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #453C52;
+    letter-spacing: 0.1px;
+    padding-left: 20px;
+    display: inline;
+}
+
+.square{
+    background: #FFFFFF;
+    border: 1px solid #BFB8CC;
+    border-radius: 4px;
+    border-radius: 4px;
+    height: 16px;
+    width: 16px;
+    float: left;
+}
+.squaredate{
+    margin: 7px;
+    background: #FFFFFF;
+    border: 1px solid #BFB8CC;
+    border-radius: 4px;
+    border-radius: 4px;
+    height: 16px;
+    width: 16px;
+    float: right;
+}
+.square1{
+    border: 2px solid #BFB8CC;
+    margin: 0px 0px;
+    margin-top: 3px;
+    padding: 0px;
+    height: 0.01px;
+    width: 13px;
+}
+.square2{
+    border: 2px solid #BFB8CC;
+    margin-top: -3px;
+    margin-left: 3px;
+    padding: 0px;
+    height: 3.6px;
+    width: 0.01px;
+}
+.square3{
+    border: 2px solid #BFB8CC;
+    margin-top: -7.5px;
+    margin-left: 9px;
+    padding: 0px;
+    height: 3.6px;
+    width: 0.01px;
+}
+
+
+.divid1{
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.due{
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.due1{
+    display: block;
+    margin-top: 10px;
+    background: #F1EDF7;
+    border-radius: 4px;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-self:center;
+    width: 177px;
+    height: 26px;
+    margin-left: 15px;
+}
+#overdue{
+    color:red;
+}
+.dividtom{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.fa.fa-trash{
+    float: right;
+    color:#453C52;
+}
+
+#remtodosid{
+    font-family: OpenSans;
+    font-size: 12px;
+    color: #726A7E;
+    letter-spacing: 0.09px;
+}
+
+#headingcount{
+    font-family: OpenSans;
+    font-size: 12px;
+    color: #453C52;
+    letter-spacing: 0.09px;
+}
+
+.topsection{
+    display: inline;
+    padding-bottom: 10px;
+}
