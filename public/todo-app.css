@@ -8,20 +8,20 @@ body{
     margin-right: 10px;
     height: 32px;
     background: #FFFFFF;
-border: 1px solid #BFB8CC;
-border-radius: 4px;
-border-radius: 4px;
+    border: 1px solid #BFB8CC;
+    border-radius: 4px;
+    border-radius: 4px;
 }
 .TodoDateInput{
     
     width: 93px;
     height: 32px;
     background: #FFFFFF;
-border: 1px solid #BFB8CC;
-border-radius: 4px;
-border-radius: 4px;
-margin-left: 10px;
-margin-right:10px;
+    border: 1px solid #BFB8CC;
+    border-radius: 4px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right:10px;
 
 }
 ::placeholder{
@@ -35,9 +35,9 @@ margin-right:10px;
     height: 32px;
     width: 72px;
     font-family: OpenSans-Semibold;
-font-size: 14px;
-color: #FFFFFF;
-letter-spacing: 0.1px;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0.1px;
 }
 .TopSection{
     margin-left: 15px;
@@ -53,53 +53,52 @@ letter-spacing: 0.1px;
 
 .DueTodayHeading{
     font-family: OpenSans-Semibold;
-font-size: 20px;
-color: #453C52;
-letter-spacing: 0.1px;
+    font-size: 20px;
+    color: #453C52;
+    letter-spacing: 0.1px;
 }
 
 .DueTodayHeadingCount{
     font-family: OpenSans;
-font-size: 16px;
-color: #453C52;
-letter-spacing: 0.09px;
-padding-left: 10px;
+    font-size: 16px;
+    color: #453C52;
+    letter-spacing: 0.09px;
+    padding-left: 10px;
 }
 .DueTomorrowHeading{
     font-family: OpenSans-Semibold;
-font-size: 20px;
-color: #453C52;
-letter-spacing: 0.1px;
+    font-size: 20px;
+    color: #453C52;
+    letter-spacing: 0.1px;
 }
 
 .DueTomorrowHeadingCount{
     font-family: OpenSans;
-font-size: 16px;
-color: #453C52;
-letter-spacing: 0.09px;
-padding-left: 10px;
+    font-size: 16px;
+    color: #453C52;
+    letter-spacing: 0.09px;
+    padding-left: 10px;
 }
 
 .RemainingHeading{
     font-family: OpenSans-Semibold;
-font-size: 20px;
-color: #453C52;
-letter-spacing: 0.1px;
+    font-size: 20px;
+    color: #453C52;
+    letter-spacing: 0.1px;
 }
 
 .RemainingHeadingCount{
     font-family: OpenSans;
-font-size: 16px;
-color: #453C52;
-letter-spacing: 0.09px;
-padding-left: 10px;
+    font-size: 16px;
+    color: #453C52;
+    letter-spacing: 0.09px;
+    padding-left: 10px;
 }
 .MainHeading{
     font-family: OpenSans-Semibold;
-font-size: 24px;
-color: #453C52;
-letter-spacing: 0.14px;
-
+    font-size: 24px;
+    color: #453C52;
+    letter-spacing: 0.14px;
 }
 
 .DueTodayEntriesOverdue{
@@ -109,13 +108,13 @@ letter-spacing: 0.14px;
     width:200px;
     height:27px;
     border-radius: 4px;
-border-radius: 4px;
-margin-bottom: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
 .DueTodayEntriesOverdue:hover{
     background: #F1EDF7;
-border-radius: 4px;
-border-radius: 4px;
+    border-radius: 4px;
+    border-radius: 4px;
 }
 
 .DueTodayEntries{
@@ -125,14 +124,14 @@ border-radius: 4px;
     width:177px;
     height:27px;
     border-radius: 4px;
-border-radius: 4px;
+    border-radius: 4px;
 
 }
 
 .DueTodayEntries:hover{
     background: #F1EDF7;
-border-radius: 4px;
-border-radius: 4px;
+    border-radius: 4px;
+    border-radius: 4px;
 }
 
 .DueTomorrowTitle{
@@ -147,8 +146,8 @@ border-radius: 4px;
     width:177px;
     height:27px;
     border-radius: 4px;
-border-radius: 4px;
-margin-bottom: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 .DueTomorrowEntries:hover{
@@ -169,51 +168,51 @@ border-radius: 4px;
     width:200px;
     height:27px;
     border-radius: 4px;
-border-radius: 4px;
-margin-bottom: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 .RemainingEntries:hover{
     background: #F1EDF7;
-border-radius: 4px;
-border-radius: 4px;
+    border-radius: 4px;
+    border-radius: 4px;
 }
 
 .DueTodayInput{
     font-family: OpenSans;
-font-size: 16px;
-color: #453C52;
-letter-spacing: 0.1px;
+    font-size: 16px;
+    color: #453C52;
+    letter-spacing: 0.1px;
 }
 
 .DueTodayOverdue{
     font-family: OpenSans;
-font-size: 14px;
-color: red;
-letter-spacing: 0.09px;
-padding-left: 10px;
+    font-size: 14px;
+    color: red;
+    letter-spacing: 0.09px;
+    padding-left: 10px;
 }
 
 .DueTomorrowInput{
     font-family: OpenSans;
-font-size: 16px;
-color: #453C52;
-letter-spacing: 0.1px;
+    font-size: 16px;
+    color: #453C52;
+    letter-spacing: 0.1px;
 }
 
 .RemainingInput{
     font-family: OpenSans;
-font-size: 16px;
-color: #453C52;
-letter-spacing: 0.1px;
+    font-size: 16px;
+    color: #453C52;
+    letter-spacing: 0.1px;
 }
 
 .RemainingInputDate{
     font-family: OpenSans;
-font-size: 12px;
-color: #726A7E;
-letter-spacing: 0.09px;
-padding-left: 20px;
+    font-size: 12px;
+    color: #726A7E;
+    letter-spacing: 0.09px;
+    padding-left: 20px;
 }
 
 .fa.fa-trash{
