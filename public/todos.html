@@ -7,72 +7,65 @@
 </head>
 
 <body>
-    <h1 class="mainheading">
+    <h1 class="MainHeading">
         My To-do List
     </h1>
 
-    <section class="topsection">
-        <input type="text" class="todotextinput" placeholder="What's next?">
-        <div class="tododateinput">
-            <div class="squaredate">
-                <div class="square2"></div>
-                <div class="square3"></div>
-                <div class="square1"></div>
-            </div>
-        </div>
-
+    <section class="TopSection">
+        <input type="text" class="TodoTextInput" placeholder="What's next?">
+        <input type="date" class="TodoDateInput">
         <button type="button" class="button">Add</button>
     </section>
 
     <section>
 
-        <div>
-            <h2 class="duetodayheading">Due Today</h2>
-            <h2 class="duetodayheading" id="headingcount">0/4</h2>
+        <div class="DueTodayTitle">
+            <h2 class="DueTodayHeading">Due Today</h2>
+            <h2 class="DueTodayHeadingCount">0/4</h2>
         </div>
-        <div class="due">
-            <div class="square"></div>
-            <p class="duetodaytodos"> Type Something</p>
-            <p class="duetodaytodos" id="overdue"> Overdue</p>
+        <div class="DueTodayEntriesOverdue">
+            <input type="checkbox">
+            <p class="DueTodayInput"> Type Something</p>
+            <p class="DueTodayOverdue"> Overdue</p>
         </div>
-        <div class="due1">
-            <div class="square"></div>
-            <p class="duetodaytodos"> Type Something</p>
+        <div class="DueTodayEntries">
+            <input type="checkbox">
+            <p class="DueTodayInput"> Type Something</p>
             <div class="fa fa-trash"></div>
         </div>
     </section>
 
     <section>
 
-        <div>
-            <h2 class="duetomheading">Due Tomorrow</h2>
-            <h2 class="duetomheading" id="headingcount">0/3</h2>
+        <div class="DueTomorrowTitle">
+            <h2 class="DueTomorrowHeading">Due Tomorrow</h2>
+            <h2 class="DueTomorrowHeadingCount">0/3</h2>
         </div>
-        <div class="dividtom">
-            <div class="square"></div>
-            <p class="duetomtodos"> Type Something</p>
+        <div class="DueTomorrowEntries">
+            <input type="checkbox">
+            <p class="DueTomorrowInput"> Type Something</p>
         </div>
     </section>
 
     <section>
-        <div>
-            <h2 class="remheading">Remaining</h2>
-            <h2 class="remheading" id="headingcount">0/3</h2>
+        <div class="RemainingTitle">
+            <h2 class="RemainingHeading">Remaining</h2>
+            <h2 class="RemainingHeadingCount">0/3</h2>
         </div>
-        <div class="divid1">
-            <div class="square"></div>
-            <p class="remtodos"> Type Something</p>
-            <p class="remtodos" id="remtodosid"> Jan 21</p>
+        <div class="RemainingEntries">
+            <input type="checkbox">
+            <p class="RemainingInput"> Type Something</p>
+            <p class="RemainingInputDate"> Jan 21</p>
         </div>
-        <div class="divid1">
-            <div class="square"></div>
-            <p class="remtodos"> Type Something</p>
-            <p class="remtodos" id="remtodosid"> Jan 22</p>
+        <div class="RemainingEntries">
+            <input type="checkbox">
+            <p class="RemainingInput"> Type Something</p>
+            <p class="RemainingInputDate"> Jan 22</p>
         </div>
-        <div class="divid1">
-            <div class="square"></div>
-            <p class="remtodos"> Type Something</p>
-            <p class="remtodos" id="remtodosid"> Jan 23</p>
+        <div class="RemainingEntries">
+            <input type="checkbox">
+            <p class="RemainingInput"> Type Something</p>
+            <p class="RemainingInputDate"> Jan 23</p>
         </div>
     </section>
 </body>
