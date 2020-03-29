@@ -1,0 +1,127 @@
+body{
+    max-width: 500px;
+    margin: 0 auto;    
+}
+
+.TodoTextInput{
+    margin-left: 0px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #BFB8CC;
+    border-radius: 4px;
+    border-radius: 4px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+.TodoDateInput{
+    
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #BFB8CC;
+    border-radius: 4px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right:10px;
+
+}
+::placeholder{
+    padding-left: 12px;
+}
+.button{
+    background: #48BB78;
+    border-radius: 4px;
+    border-radius: 4px;
+    padding-left: 10px;
+    height: 32px;
+    width: 72px;
+    font-family: OpenSans-Semibold;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0.1px;
+}
+.TopSection{
+    margin-left: 15px;
+    display:flex;
+    align-items: center;
+}
+
+.TodoTitle{
+    display: flex;
+    align-items: center;
+    
+}
+
+.TodoHeading{
+    font-family: OpenSans-Semibold;
+    font-size: 20px;
+    color: #453C52;
+    letter-spacing: 0.1px;
+}
+
+.TodoHeadingCount{
+    font-family: OpenSans;
+    font-size: 16px;
+    color: #453C52;
+    letter-spacing: 0.09px;
+    padding-left: 10px;
+}
+
+.MainHeading{
+    font-family: OpenSans-Semibold;
+    font-size: 24px;
+    color: #453C52;
+    letter-spacing: 0.14px;
+}
+
+.TodoEntries{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 4px;
+    border-radius: 4px;
+
+}
+
+.TodoEntries:hover{
+    background: #F1EDF7;
+    border-radius: 4px;
+    border-radius: 4px;
+    
+}
+.TodoEntries:hover .TrashIcon{
+    visibility:visible;
+}
+
+.Todo-text{
+    font-family: OpenSans;
+    font-size: 16px;
+    color: #453C52;
+    letter-spacing: 0.1px;
+}
+
+.Todo-text-completed{
+    font-family: OpenSans;
+    font-size: 16px;
+    color: #453C52;
+    letter-spacing: 0.1px;
+text-decoration: line-through;
+}
+
+.Todo-date{
+    font-family: OpenSans;
+    font-size: 16px;
+    color: #453C52;
+}
+
+.TrashIcon{
+    height:16px;
+    width:16px;
+    visibility: hidden;
+    margin-left: 10px;
+}
+
+input[type=checkbox]{
+    height:16px;
+    width: 16px;
+    background-color: #FFFFFF;
+}
