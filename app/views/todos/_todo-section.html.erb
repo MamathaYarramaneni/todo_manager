@@ -8,7 +8,7 @@
         <div class="TodoEntries">
             <%if todo.completed%>
                 <input type="checkbox" checked>
-                <p class="Todo-text-completed" style="text-decoration: line-through;"><%= todo.todo_text%></p>
+                <p class="Todo-text-completed"><%= todo.todo_text%></p>
             <%else%>
                 <input type="checkbox"%>
                 <p class="Todo-text"><%= todo.todo_text%></p>
