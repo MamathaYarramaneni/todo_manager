@@ -10,7 +10,8 @@
 
             <%= form_with(url:"/todos/#{todo.id}" , method:"put") do %>
                 <%= check_box_tag :completed ,
-                    todo.todo_text,todo.completed,
+                    todo.todo_text,
+                    todo.completed,
                     class: "checkbox" ,
                     :onclick=> "javascript:this.form.submit();" 
                 %>
@@ -23,7 +24,6 @@
 
             <%= form_with(url:"/todos/#{todo.id}" , method:"delete") do %>
                 <%= image_submit_tag("trash.png", class:"TrashIcon")%>
-                <%= %>
             <%end%>
 
         </div>
