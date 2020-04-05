@@ -73,14 +73,6 @@ body{
     letter-spacing: 0.14px;
 }
 
-.TodoEntries{
-    display: flex;
-    align-items: center;
-    margin-left: 15px;
-    border-radius: 4px;
-    border-radius: 4px;
-
-}
 
 .TodoEntries:hover{
     background: #F1EDF7;
@@ -104,7 +96,7 @@ body{
     font-size: 16px;
     color: #453C52;
     letter-spacing: 0.1px;
-text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 .Todo-date{
@@ -120,9 +112,16 @@ text-decoration: line-through;
     visibility: hidden;
     margin-left: 10px;
 }
-
-input[type=checkbox]{
+.checkbox{
     height:16px;
     width: 16px;
     background-color: #FFFFFF;
+}
+
+.TodoEntries{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 4px;
+    border-radius: 4px;
 }

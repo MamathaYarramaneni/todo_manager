@@ -3,11 +3,11 @@
         My To-do List
     </h1>
 
-    <form class="TopSection" action="/todos" method="POST">
+     <%= form_with(url:"/todos" , method:"post") do %>
         <input type="text" class="TodoTextInput" placeholder="What's next?" name="todo_text">
         <input type="date" class="TodoDateInput" name="due_date">
         <button type="submit" class="button">Add</button>
-    </form>
+    <%end%>
 
     <%= render partial: "todo-section" , locals: {
         section_title: "Overdue" ,
