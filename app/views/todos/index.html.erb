@@ -4,9 +4,9 @@
     </h1>
 
      <%= form_with(url:"/todos" , method:"post") do %>
-        <input type="text" class="TodoTextInput" placeholder="What's next?" name="todo_text">
-        <input type="date" class="TodoDateInput" name="due_date">
-        <button type="submit" class="button">Add</button>
+        <%= text_field_tag :todo_text,"", class:"TodoTextInput", placeholder:"What's next?"%>
+        <%= date_field_tag :due_date,"", class:"TodoDateInput"%>
+        <%= submit_tag "Add",class:"button"%>
     <%end%>
 
     <%= render partial: "todo-section" , locals: {
