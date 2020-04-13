@@ -1,0 +1,23 @@
+<h6 class="MainHeading-signup">Hey there! create your own account</h6>
+
+<section class="UserForm">
+  <%= form_with url:users_path do |form|%>
+    <div class="UserForm-entry">
+      <p>First name:</p>
+      <%= form.text_field :first_name ,class:"Form-input", placeholder: "enter first name"%>
+    </div>
+    <div class="UserForm-entry">
+      <p>Last name:</p>
+      <%= form.text_field :last_name,class:"Form-input", placeholder: "enter last name" %>
+    </div>
+    <div class="UserForm-entry">
+      <p>Email:</p>
+      <%= form.email_field :email,class:"Form-input", placeholder: "enter email " %>
+    </div>
+    <div class="UserForm-entry">
+      <p>Password:</p>
+      <%= form.password_field :password_digest,class:"Form-input", placeholder: "enter password" %>
+    </div>
+    <%= form.submit "Sign Up",class:"Form-submit" %>
+  <%end%>
+</section>

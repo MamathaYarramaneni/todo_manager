@@ -10,16 +10,18 @@ class UsersController < ApplicationController
   end
 
   def create
-    name = params[:name]
+    first_name = params[:first_name]
+    last_name = params[:last_name]
     email = params[:email]
-    password = params[:password]
+    password = params[:password_digest]
     new_user = User.create!(
-      name: name,
+      first_name: first_name,
+      last_name: last_name,
       email: email,
       password: password,
     )
-    display_text = "New user added with id: #{new_user.id} with name: #{new_user.name}"
-    render plain: display_text
+
+    redirect_to root_path
   end
 
   def login
@@ -30,5 +32,9 @@ class UsersController < ApplicationController
     else
       render plain: false
     end
+  end
+
+  def new
+    render "users/new"
   end
 end

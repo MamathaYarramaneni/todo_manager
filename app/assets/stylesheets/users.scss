@@ -1,3 +1,31 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.MainHeading-signup{
+  font-size:24px;
+}
+
+.UserForm{
+  background: #F1EDF7;
+  margin: 0 auto;
+  padding:20px 20px;
+}
+
+.UserForm-entry{
+  margin-bottom:10px;
+}
+
+.Form-input{
+  font-size:18px;
+  padding:5px 10px;
+}
+
+.Form-submit{
+  padding:10px 10px;
+  font-size: 18px;
+  background:green;
+  color:white;
+  border-radius: 8px 8px;
+}
+
