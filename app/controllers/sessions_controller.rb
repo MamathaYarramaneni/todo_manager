@@ -10,7 +10,8 @@ class SessionsController < ApplicationController
       session[:current_user_id] = user.id
       redirect_to "/"
     else
-      render plain: "invalid credentials"
+      flash[:error] = "Invalid credentials.Please Retry."
+      redirect_to new_sessions_path
     end
   end
 

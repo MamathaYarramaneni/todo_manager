@@ -137,3 +137,9 @@ body{
   display:flex;
   justify-content: space-between;
 }
+
+.FlashMessage{
+    margin-top:30px;
+    color:darkred;
+    font-size:15px;
+}
