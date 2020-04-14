@@ -6,7 +6,7 @@
     <%= text_field_tag :todo_text,"", class:"TodoTextInput", placeholder:"What's next?" %>
     <%= date_field_tag :due_date,"", class:"TodoDateInput" %>
     <%= submit_tag "Add", class:"button" %>
-  <%end%>
+  <% end %>
   <%= render partial: "todo-section" , locals: {
       section_title: "Overdue" ,
       todos: @todos.overdue,

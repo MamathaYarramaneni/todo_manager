@@ -3,13 +3,20 @@
 <section class="UserForm">
   <%= form_with url:sessions_path do |form|%>
     <div class="UserForm-entry">
-      <p>Email:</p>
-      <%= form.email_field :email,class:"Form-input", placeholder: "enter email " %>
+      <%= form.email_field :email,class:"Form-input", placeholder: "Enter email " %>
     </div>
     <div class="UserForm-entry">
-      <p>Password:</p>
-      <%= form.password_field :password_digest,class:"Form-input", placeholder: "enter password" %>
+      <%= form.password_field :password_digest,class:"Form-input", placeholder: "Enter password" %>
     </div>
     <%= form.submit "Sign In",class:"Form-submit" %>
   <%end%>
 </section>
+
+<div class="Navigation-tools">
+<p>New user? 
+  <%= link_to "Sign-up", new_user_path %>
+</p>
+<p>
+  <%= link_to "Home", "/" %>
+</p>
+</div>
