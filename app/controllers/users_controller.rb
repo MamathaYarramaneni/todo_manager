@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  skip_before_action :ensure_user_logged_in
+
   def index
     render plain: User.all.map { |user| user.display_user }.join("\n")
   end
@@ -18,8 +20,8 @@ class UsersController < ApplicationController
       email: email,
       password: password,
     )
-
-    redirect_to root_path
+    session[:current_user_id] = new_user.id
+    redirect_to sessions_path
   end
 
   def login
